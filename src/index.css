@@ -30,10 +30,6 @@ body {
   font-size: 2rem;
 }
 
-.ant-select-selection-search-input {
-  font-size: 16px !important;
-}
-
 .footer {
   box-sizing: border-box;
   height: 30px;
@@ -53,6 +49,14 @@ body {
   color: #d5d5d5;
   font-size: 10px;
   user-select: none;
+}
+
+/* override ant design style */
+.ant-select-selection-search-input {
+  font-size: 16px !important;
+}
+.rc-virtual-list-holder {
+  /* overscroll-behavior: contain; */
 }
 
 /* util base */

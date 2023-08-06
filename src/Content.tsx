@@ -63,6 +63,7 @@ export const Content = (props: Props) => {
               >
                 <Select
                   options={NPCOptions}
+                  virtual={false}
                   showSearch
                   optionFilterProp='label'
                   allowClear
@@ -85,6 +86,7 @@ export const Content = (props: Props) => {
               >
                 <Select
                   options={mapOptions}
+                  virtual={false}
                   showSearch
                   optionFilterProp='label'
                   allowClear
@@ -101,6 +103,7 @@ export const Content = (props: Props) => {
               >
                 <Select
                   options={NPCOptions}
+                  virtual={false}
                   showSearch
                   optionFilterProp='label'
                   allowClear
